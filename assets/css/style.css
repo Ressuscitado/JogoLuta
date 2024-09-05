@@ -1,0 +1,51 @@
+body {
+    background-image: url('../img/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-align: center;
+}
+.fightarea {
+    display: flex;
+    gap: 20px;
+}
+#char,
+#monster {
+    flex: 1;
+    font-size: 20px;
+}
+.lifebar {
+    height: 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+.lifebar .bar {
+    height: inherit;
+    background-color: red;
+    border-radius: 5px;
+}
+.log {
+    border: 1px dotted #000000;
+    height: 300px;
+    overflow-y: scroll;
+    background-color: rgb(106, 78, 56, 0.5);
+    color:#fff;
+    
+}
+button {
+    padding: 20px;
+    background-color: rgb(64, 66, 74);
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: 50px;
+    color: #fff;
+    border-radius: 50%;
+}
+button:hover {
+    background-color: rgb(0, 0, 0);
+}
+.buttonsalign {
+    display: flex;
+    justify-content: center;
+}
