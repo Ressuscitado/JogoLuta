@@ -6,6 +6,10 @@ body {
     color: #000000;
     text-align: center;
 }
+.name {
+    font-size: 30px;
+    font-weight: bold;
+}
 .fightarea {
     display: flex;
     gap: 20px;
